@@ -1,0 +1,28 @@
+/* Éléments principaux de la page */
+
+
+
+/* ----------------------  HEADER----------------------- */
+
+#nav_bar{
+    border: solid 1px red;
+
+}
+#nav_bar h1{
+    font-size: 1.3em;
+}
+
+.logo {
+    border: solid 1px purple;
+    width: 100px;
+    height: 47px;
+        
+}
+.logo img{
+    width: 100%;
+}
+/* Navigation */
+
+
+
+
