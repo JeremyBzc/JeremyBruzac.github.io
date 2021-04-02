@@ -25,9 +25,9 @@
                         </div>
                     </div>
                     <!--Navigation-->
-                    <nav class="nav-links">
+                    <nav class="nav_links">
                         <ul>
-                            <li><a href="#hosting">Hébergement</a></li>
+                            <li><a href="#hosting">Hébergements</a></li>
                             <li><a href="#activity">Activités</a></li>    
                             <li><a href="#">S'inscrire</a></li>   
                         </ul>
@@ -35,18 +35,18 @@
             </header>
 
     <!--INTRODUCTION-->  
-
+    
             <section id="overture">
                     <div class="main_title">
-                        <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+                        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                         <span>En plein centre ville ou en pleine nature</span>
                     </div>
                     <!--Search-->
                     <div class="search">
                         <form method="post" action="traitement.php">
                             <i class="fas fa-map-marker-alt"></i>                       
-                            <input type="search" placeholder="Marseille,France" required>
-                            <input type="submit" value="Rechercher">
+                            <input type="search" name="city" id="city" maxlength="20" placeholder="Marseille,France" required>
+                            <button>Rechercher</button>  
                         </form>
                     </div>
                     <!--Filters-->
@@ -77,10 +77,10 @@
             </section>
 
     <!--HOSTING--> 
-
+        <div class="container">
             <section id="hosting">
                     <h2 class="hosting_title">Hébergements à Marseille</h2>
-                        <div class="hosting_part">
+                        <div class="hosting_partone">
                         <!--Card "Auberge de la Cannbière"-->
                             <div class="hosting_card">
                                 <a href="#">
@@ -120,7 +120,9 @@
                                     </article>
                                 </a>
                             </div>
+                        </div>
                         <!--Card "Hôtel de la mer"-->
+                        <div class="hosting_parttwo">
                             <div class="hosting_card">
                                 <a href="#">
                                     <article>
@@ -161,12 +163,13 @@
                             </div>
                         </div>              
             </section>
+            
 
     <!--POPULAR--> 
             <section id="popular">
                     <div class="popular_title">                                 <!--Div à part car logo, nécessaire ?-->
                         <h2>Les plus populaires</h2>
-                        <span><i class="fas fa-chart-line"></i></span>
+                        <i class="fas fa-chart-line"></i>
                     </div>
                         <div class="popular_part">
                         <!--Card "Hôtel Le soleil du matin"-->
@@ -210,6 +213,7 @@
                             </div>
                         </div>
             </section>
+        </div>
 
     <!--ACTIVITY-->
 
