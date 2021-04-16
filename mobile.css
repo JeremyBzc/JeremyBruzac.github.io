@@ -1,0 +1,138 @@
+/********** MEDIA QUERY PHONES **********/
+* {
+    margin: 0 auto;
+ }
+ 
+ /* HEADER */
+
+ header {
+   border: 1px solid blue;
+   height: 135px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+
+ }
+ .nav_logo {
+    width: 40%;
+    margin: 0;
+    height: 75px;
+ }
+
+ .nav_links {
+    margin-top: 30px;
+    width: 100%;
+ }
+ .nav_links ul {
+     padding: 0 0 10px 0;
+     margin: 0;   
+ }
+ .nav_links a {
+     border: 1px solid red;
+     padding: 10px;
+ }
+
+
+ .logo {
+    margin: 25px 0 0 20px;
+ }
+
+ .register {
+     position: relative;
+ }
+
+ .main_title {
+     text-align: center;
+ }
+ 
+ /* OVERTURE SECTION */
+ 
+ .searching {
+    width: 15%;
+ }
+ .filters_list {
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: center;
+     width: 60%;  
+ }
+ .container {
+     display: flex;
+     flex-direction: column-reverse;
+ }
+ /* POPULAR SECTION */ 
+ 
+ #popular {
+     width: 100%;
+     margin-bottom: 15px;
+     border-radius: 0;
+ }
+ .popular_card {
+     width: 85%;
+     height: 130px;
+     padding: 4px 4px 4px 0px;
+ }
+ .popular_card img {
+     object-fit: cover;
+     width: 40%;
+     height: 130px;
+ }
+ .popular_description {
+     font-size: 0.8rem;
+     flex-wrap: wrap;
+ }
+ 
+ /* HOSTING SECTION */
+ 
+ #hosting {
+     width: 100%;
+     border-radius: 0; 
+     background-color: transparent;
+ }
+ .hosting_partone, .hosting_parttwo {
+     display: flex;
+     flex-direction: column;
+     width: 90%;
+ }
+ 
+ .hosting_card {
+     width: 100%;
+ }
+
+ .more {
+     width: 100%;
+ }
+ 
+ /* ACTIVITY SECTION */
+ 
+ #activity {
+     width: 100%;
+ }
+ .activity_title {
+     margin-left: 15px;
+ }
+ 
+ .activ_part {
+     display: flex;
+     flex-direction: column;
+     width: 90%;
+ }
+
+ .column, .bigcolumn {
+     width: 100%;
+ }
+.column {
+
+}
+ 
+ 
+ /* FOOTER SECTION */
+ 
+
+.end_part {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid red;
+}
+ 
