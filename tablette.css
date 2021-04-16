@@ -1,6 +1,145 @@
+/********** MEDIA QUERY TABLET **********/
+* {
+   margin: 0;
+}
+#main_container {
+    max-width: 95%
+}
+.footer_container {
+    max-width: 95%;
+}
+.fa-star {
+    font-size: 1rem;
+}
+/* HEADER */
+header {
+    height: 130px;
+}
 
-h1 {
-    color: red;
+.logo {
+    width: 150px;
+    height: 60px;
+}
+
+.main_title {
+    margin-bottom: 50px;
+}
+
+/* OVERTURE SECTION */
+
+.search {
+   display: flex;
+   justify-content: center;
+}
+
+
+.filters_list {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;  
+}
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* POPULAR SECTION */ 
+
+#popular {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.popular_card {
+    width: 90%;
+    height: 180px;
+    padding: 4px;
+}
+.popular_card img {
+    object-fit: cover;
+    width: 50%;
+    height: 180px;
+}
+.popular_description {
+    font-size: 1rem;
+    flex-wrap: wrap;
+}
+
+/* HOSTING SECTION */
+
+#hosting {
+    width: 100%; 
+}
+.hosting_partone, .hosting_parttwo {
+    display: inline-block;
+    margin-left: 20px;
+    width: 45%;  
+}
+
+.hosting_card {
+    width: 90%;
+}
+
+/* ACTIVITY SECTION */
+
+#activity {
+    width: 100%;
+}
+.activity_title {
+    margin-left: 30px;
+}
+
+.activ_part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bigcolumn {
+    width: 45%;
+    margin-top: 20px;
+}
+
+.column {
+    width: 45%;
+    height: 445px;
+    margin-top: 20px;
+}
+
+.column_fort, .column_frioul {
+    width: 100%;
+    height: 210px;
+}
+
+.column_fort img {
+    height: 160px;
+}
+
+.column_frioul img {
+    height: 150px;
+}
+
+.column_card {
+    height: 210px
+}
+
+.column_card img {
+    height: 160px;
+}
+
+/* FOOTER SECTION */
+
+.footer_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.end_part {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 45%;
+    margin-bottom: 30px;
 }
 
 
@@ -25,4 +164,52 @@ h1 {
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
