@@ -37,7 +37,7 @@
                             </ul>
                         </nav>
                         <div class="register">
-                            <a href="#"><button class="subscribe">S'inscrire</button></a>
+                            <button class="subscribe">S'inscrire</button>
                         </div>  
                 </header>
     <!--INTRODUCTION-->  
@@ -51,12 +51,13 @@
                             <form method="post" action="traitement.php">
                                 <i class="fas fa-map-marker-alt"></i>                       
                                 <input type="search" name="city" id="city" maxlength="20" placeholder="Marseille,France" required>
-                                <button class="searching">Rechercher</button>  
+                                <button class="searching">Rechercher</button> 
+                                <button class="searchingglass"><i class="fas fa-search"></i></button>
                             </form>
                         </div>
                         <!--Filters-->
                         <div class="filters_list">
-                                <h2>Filtres</h2>
+                                <h2 class="filter_title">Filtres</h2>
                                  <div class="filter">
                                     <a href="#">
                                         <i class="fas fa-money-bill-wave"></i>
@@ -119,6 +120,7 @@
                                                     <span>Nuit à partir de <strong class="price">52€</strong></span>
                                                     <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                                                 </div>
+                                            </div>
                                         </article>
                                     </a>                
                                 </div>

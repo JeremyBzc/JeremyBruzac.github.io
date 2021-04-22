@@ -24,7 +24,7 @@ body {
     font-size: 0.8rem;
 }
 .star-gray {
-    color: rgb(242, 242, 242);
+   color: rgb(220, 220, 220);
 }
 
 /* HEADER */
@@ -48,21 +48,16 @@ header {
 }
 
 .nav_links a {
-    
     padding: 40px 30px 30px 30px;
 }
-
 .nav_links a:hover {
     color: rgb(41, 100, 242); 
     border-top: 5px solid rgb(41, 100, 242);  
 }
-
 .register {
     height: 20px;
     margin-top: 42px;
-
 }
-
 .subscribe {
     border: none;
     cursor: pointer;
@@ -71,42 +66,34 @@ header {
     font-weight: 700;
     color: rgb(41, 100, 242);
 }
-
 .subscribe:active {
-    border: solid 1px rgb(41, 100, 242) inset;
+    border: solid 1px rgb(41, 100, 242);
     background-color: rgb(222, 235, 255);
 }
 
 .subscribe:hover {
     -webkit-transform: scale(1.05);
-    transition: 0.2s;
+    transition: 0.3s;
    
 }
-  
 .logo {
     width: 100px;
     height: 47px;
-    margin-top: 40px;
-         
+    margin-top: 40px;       
 }
 .logo img{
     width: 100%;
 }
 /* OVERTURE SECTION */
-
-
 .main_title {
-    
     margin-bottom: 20px;
-   
 }
 .main_title h1 {
     font-size: 1.3em;
     margin-bottom: 2px;  
 }
 .main_title span {
-    font-size: 0.9em;
-      
+    font-size: 0.9em;  
 }
 /* Search */
 
@@ -119,8 +106,7 @@ header {
 .search i {
     background-color: rgb(242, 242, 242);
     padding: 17px 15px 17px 15px;
-    border-radius: 15px 0 0 15px;
-     
+    border-radius: 15px 0 0 15px; 
 }
 .search input {
     border: solid 1px rgb(242, 242, 242);
@@ -149,47 +135,39 @@ header {
     border: 4px solid rgb(41, 104, 242);
     box-shadow: 2px 2px 5px rgb(41, 104, 242);
     outline: none;
-
-
 }
+.searchingglass {
+    display: none;
+}
+
 /* Filters */
 
 .filters_list {
-   
     display: flex;
-   
 }
 .filters_list h2 {
-
     font-size: 1.2em;
     margin: 18px 50px 0 0;
 }
 .filter {
-
     border: solid 2px rgb(242, 242, 242);
     height: 22px; 
     margin: 12px 25px 0 0;
     padding: 0 10px 15px 0;
-    border-radius: 25px;
-    
-    
+    border-radius: 25px; 
 }
 
 .filter a {
     padding: 8px 8px 15px 0;
     display: flex; 
 }
-
-
 .filter:hover {
     background-color: rgb(41, 100, 242);
-    -webkit-transform: scale(1.05);
-    
+    -webkit-transform: scale(1.05);  
 }
- .filter span:hover {
+ .filter:hover span {
     color: white;
 }
-
 .filter i {
     background-color: rgb(222, 235, 255);
     font-size: 1em;
@@ -202,13 +180,11 @@ header {
     border-radius: 100%;
     color:rgb(41, 100, 242);
 }
-
 .filter_name {
     padding-left: 10px;
     color: black;
     font-weight: bold;
 }
-
 /* Information */
 .info_dispo {
     margin-top: 15px;
@@ -235,11 +211,9 @@ header {
 /************* HOSTING SECTION *****************/
 
 .container {
-   
    margin-top: 40px;
    display: flex;
-   justify-content: space-between;
-   
+   justify-content: space-between; 
 }
 
 #hosting {
@@ -250,7 +224,7 @@ header {
 }
 
 .hosting_title {
-    margin: 35px 0 0 35px;
+    margin: 25px 30px;
 }
 .hosting_partone, .hosting_parttwo {
     display: flex;
@@ -295,10 +269,9 @@ header {
 }
 .hosting_card:hover {
     -webkit-transform: scale(1.05);
-    transition: 0.5s;
+    transition: 0.3s;
     box-shadow: 0 0 10px rgb(41, 100, 242);
 }
-
 .more {
     
     width: 20%;
@@ -318,11 +291,9 @@ header {
     border-radius: 20px;
     width: 32%; 
 }
-
 .popular_title {
-    
-    width: 90%;
-    margin: 16px 0 0 30px;
+
+    margin: 10px 30px 1px 30px;
     display: flex;
     justify-content: space-between;
     font-size: 1rem;
@@ -332,7 +303,6 @@ header {
     display: flex;
     align-items: center;
     font-size: 1.5rem;
-    margin-right: 25px;
 }
 
 .popular_art {
@@ -377,7 +347,7 @@ header {
 
 .popular_card:hover {
     -webkit-transform: scale(1.05);
-    transition: 0.5s;
+    transition: 0.3s;
     box-shadow: 0 0 10px rgb(41, 100, 242);
 }
 
@@ -477,25 +447,25 @@ header {
 }
 .bigcolumn:hover {
     -webkit-transform: scale(1.05);
-    transition: 0.5s;
+    transition: 0.3s;
     box-shadow: 0 0 10px rgb(41, 100, 242);
 }
 
 .column_card:hover {
     -webkit-transform: scale(1.05);
-    transition: 0.5s;
+    transition: 0.3s;
     box-shadow: 0 0 10px rgb(41, 100, 242);
 }
 
 .column_fort:hover {
     -webkit-transform: scale(1.05);
-    transition: 0.5s;
+    transition: 0.3s;
     box-shadow: 0 0 10px rgb(41, 100, 242);
 }
 
 .column_frioul:hover {
     -webkit-transform: scale(1.05);
-    transition: 0.5s;
+    transition: 0.3s;
     box-shadow: 0 0 10px rgb(41, 100, 242);
 }
 
@@ -529,5 +499,4 @@ header {
 }
     
    
-
 
