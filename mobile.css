@@ -10,7 +10,6 @@
    width: 100%;
    flex-wrap: wrap;
    flex-direction: row-reverse;
-   border-bottom: 2px solid rgb(225, 225, 225);
  }
  .nav_logo {
     order: 2;
@@ -30,17 +29,25 @@
  .nav_links ul {
      padding: 0 0 10px 0; 
      width: 100%;
-     margin: 0;  
+     margin: 0; 
+ }
+ .nav_links li {
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(225, 225, 225);
+    width: 50%;
  }
  .nav_links a {
      font-size: 0.9rem;
-     flex-grow: 1;
-     padding: 0 50px 10px 30px;
-     border-bottom: 2px solid rgb(225, 225, 225);
+     padding: 0 0 0 30px;
  }
  .nav_links a:hover {
      border-top: none;
  }
+ .nav_links li:hover  {
+    color: rgb(41, 100, 242); 
+    border-bottom: 2px solid rgb(41, 100, 242); 
+ }
+
  .register {
      order: 1;
      margin-right: 10px;
@@ -48,32 +55,35 @@
  .logo {
     margin: 25px 0 0 20px;
  }
- .main_title {
-     text-align: justify;
-     margin: 0 15px;
+ .main_title { 
+     margin: 30px 40px 34px 15px;
  }
  .main_title h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .main_title span {
-    font-size: 0.8rem;
+    font-size: 0.8rem;;
 }
- 
  /* OVERTURE SECTION */
 
  .search {
-     margin: 0 10px;
+     margin: 0 15px;
+ }
+ .search i {
+    padding: 11px 12px 13px 12px;
+    border-radius: 12px 0 0 12px;
  }
  .search input {
-     width: 200px
+     width: 200px;
+     height: 40px;
  }
  .searching {
     display: none;
  }
  .searchingglass {
      display: inline-block;
-     height: 50px;
-     width: 50px;
+     height: 40px;
+     width: 40px;
      margin-left: -15px;
      background-color: rgb(41, 104, 242);
      border-radius: 15px;
@@ -81,7 +91,7 @@
  }
  .searchingglass i {
      padding: 0;
-     font-size: 1rem;
+     font-size: 0.9rem;
      color: white;
      background-color: rgb(41, 104, 242);
  }
@@ -90,7 +100,7 @@
     font-size: 0.9rem;
  }
  .filter_title {
-     width: 50%;
+     width: 100%;
  }
  .filters_list {
      flex-wrap: wrap;
@@ -110,13 +120,13 @@
  }
  .info_dispo span {
     display: inline-block;
-     margin: 0;
-     font-size: 0.8rem;
+    margin: 0;
+    font-size: 0.8rem;
  }
  .info_dispo i {
-     border-radius: 15px;
-     margin-right: 5px;
-     font-size: 0.7rem;
+    border-radius: 15px;
+    margin-right: 5px;
+    font-size: 0.7rem;
  }
  .container {
      display: flex;
@@ -256,7 +266,7 @@
 }
 .end_part h3 {
     font-size: 1rem;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .end_part li {
     font-size: 0.9rem;

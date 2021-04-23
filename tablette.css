@@ -21,7 +21,7 @@ header {
     height: 60px;
 }
 .main_title {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .main_title h1 {
@@ -44,7 +44,9 @@ header {
 .searching, .search input {
     height: 66px;
 }
-
+.filter {
+    margin-bottom: 10px;
+}
 .filters_list {
     flex-wrap: wrap;
     justify-content: space-evenly; 
@@ -58,27 +60,43 @@ header {
 
 #popular {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+}
+.popular_title {
+    margin: 20px 0 20px 50px;
+}
+.popular_title i {
+    margin-right: 60px;
 }
 .popular_card {
-    width: 90%;
+    margin: 0 5px 30px 45px;
+    width: 85%;
     height: 180px;
     padding: 4px;
 }
 .popular_card img {
     object-fit: cover;
-    width: 50%;
+    width: 40%;
     height: 180px;
 }
 .popular_description {
     font-size: 1rem;
-    flex-wrap: wrap;
+    width: 40%;
+}
+.popular_description div {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
 }
 
 /* HOSTING SECTION */
 
 #hosting {
     width: 100%; 
+}
+.hosting_title {
+    margin: 20px 0 0 50px
 }
 .hosting_partone, .hosting_parttwo {
     display: inline-block;
@@ -96,32 +114,27 @@ header {
     width: 100%;
 }
 .activity_title {
-    margin-left: 30px;
-    width: 30%;
+    margin: 0 0 20px 5px;
+    width: 100%;
 }
-
 .activ_part {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
-
 .bigcolumn {
-    width: 45%;
+    width: 47%;
     margin-top: 20px;
 }
 
 .column {
-    width: 45%;
+    width: 47%;
     height: 445px;
     margin-top: 20px;
 }
-
 .column_fort, .column_frioul {
     width: 100%;
     height: 210px;
 }
-
 .column_fort img {
     height: 160px;
 }
@@ -145,15 +158,16 @@ header {
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .end_part {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 45%;
-    margin-bottom: 30px;
+    width: 40%;
+    margin: 30px
 }
-
+.end_part h3 {
+    margin-bottom: 10px;
+}
 
 
 
