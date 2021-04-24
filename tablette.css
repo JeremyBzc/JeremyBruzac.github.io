@@ -81,13 +81,13 @@ header {
 }
 .popular_description {
     font-size: 1rem;
-    width: 40%;
+    width: 60%;
 }
 .popular_description div {
-    height: 75%;
+    height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly; 
+    justify-content: space-between;
 }
 
 /* HOSTING SECTION */
