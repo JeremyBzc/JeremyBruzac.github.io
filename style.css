@@ -67,7 +67,7 @@ header {
     background-color: rgb(222, 235, 255);
 }
 .subscribe:hover {
-    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
     transition: 0.3s; 
 }
 /* Logo page */
@@ -111,8 +111,7 @@ header {
     margin-left: -4px;
     font-size: 1em;  
 }
-.searching {
-    
+.searching {  
     cursor: pointer;
     height: 50px;
     width: 130px;
@@ -121,7 +120,7 @@ header {
     color: white;
     font-size: 1em;
     border-radius: 0 15px 15px 0;
-    border: 1px solid rgb(41, 104, 242);
+    border: none;
 }
 .searching:active {
     font-weight: bold;
@@ -157,7 +156,7 @@ header {
 }
 .filter:hover {
     background-color: rgb(41, 100, 242);
-    -webkit-transform: scale(1.05);  
+    transform: scale(1.05);  
 }
  .filter:hover span {
     color: white;
@@ -253,7 +252,7 @@ header {
     width: 100%;   
 }
 .hosting_card:hover {
-    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
     transition: 0.3s;
     box-shadow: 0 0 10px rgb(41, 100, 242);
 }
@@ -321,13 +320,11 @@ header {
     display: inline-block;
     margin: 5px 0;
 }
-
 .popular_description span:nth-child(2n) {
     margin-top: 35px;
 }
-
 .popular_card:hover {
-    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
     transition: 0.3s;
     box-shadow: 0 0 10px rgb(41, 100, 242);
 }
@@ -346,7 +343,6 @@ header {
    display: flex;
    justify-content: space-between;
 }
-
 .activity_title {
     width: 100%;
     margin-bottom: 40px;
@@ -376,7 +372,6 @@ header {
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.14);
 }
-
 .column_card img {
     object-fit: cover;
     width: 100%;
@@ -414,22 +409,22 @@ header {
     margin: 10px 0 0 20px;
 }
 .bigcolumn:hover {
-    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
     transition: 0.3s;
     box-shadow: 0 0 10px rgb(41, 100, 242);
 }
 .column_card:hover {
-    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
     transition: 0.3s;
     box-shadow: 0 0 10px rgb(41, 100, 242);
 }
 .column_fort:hover {
-    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
     transition: 0.3s;
     box-shadow: 0 0 10px rgb(41, 100, 242);
 }
 .column_frioul:hover {
-    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
     transition: 0.3s;
     box-shadow: 0 0 10px rgb(41, 100, 242);
 }
