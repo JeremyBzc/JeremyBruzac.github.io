@@ -5,7 +5,6 @@
 #main_container, .footer_container {
     padding: 0 15px;  
 }
-
 #footer {
     width: 100%;
 }
@@ -13,6 +12,7 @@
     font-size: 1rem;
 }
 /* HEADER */
+
 header {
     height: 130px;
 }
@@ -23,7 +23,6 @@ header {
 .main_title {
     margin-bottom: 30px;
 }
-
 .main_title h1 {
     font-size: 1.4rem;
 }
@@ -56,6 +55,7 @@ header {
     display: flex;
     flex-direction: column-reverse;
 }
+
 /* POPULAR SECTION */ 
 
 #popular {
@@ -103,7 +103,6 @@ header {
     margin-left: 20px;
     width: 45%;  
 }
-
 .hosting_card {
     width: 90%;
 }
@@ -125,7 +124,6 @@ header {
     width: 47%;
     margin-top: 20px;
 }
-
 .column {
     width: 47%;
     height: 445px;
@@ -138,15 +136,12 @@ header {
 .column_fort img {
     height: 160px;
 }
-
 .column_frioul img {
     height: 150px;
 }
-
 .column_card {
     height: 210px
 }
-
 .column_card img {
     height: 160px;
 }
@@ -168,7 +163,6 @@ header {
 .end_part h3 {
     margin-bottom: 10px;
 }
-
 
 
 
